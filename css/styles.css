@@ -1,0 +1,28 @@
+:root {
+  --redwood: #a54657;
+  --mantis: #7ac74f;
+}
+
+body {
+  background-color: var(--redwood);
+}
+
+h1 {
+  color: var(--mantis);
+}
+
+a {
+  color: #2d93ad;
+}
+
+a:visited {
+  color: #f26157;
+}
+
+a:hover {
+  color: var(--mantis);
+}
+
+a:active {
+  color: #f1a66a;
+}
