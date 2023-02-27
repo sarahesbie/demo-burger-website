@@ -2,6 +2,7 @@
   --redwood: #a54657;
   --mantis: #7ac74f;
   --coral: #f26157;
+  --customblue: #2d93ad;
 }
 
 body {
@@ -13,7 +14,7 @@ h1 {
 }
 
 a {
-  color: #2d93ad;
+  color: var(--customblue);
 }
 
 a:visited {
