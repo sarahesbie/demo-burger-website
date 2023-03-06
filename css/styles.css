@@ -2,23 +2,24 @@
   --redwood: #a54657;
   --mantis: #7ac74f;
   --coral: #f26157;
-  --customblue: #2d93ad;
+  --periwinkle: #2d93ad;
+  --clay: #f1a66a;
 }
 
 body {
-  background-color: var(--redwood);
+  background-color: #f2f2f2;
 }
 
 h1 {
-  color: var(--mantis);
+  color: var(--redwood);
 }
 
 a {
-  color: var(--customblue);
+  color: var(--periwinkle);
 }
 
 a:visited {
-  color: var(--coral);
+  color: var(--periwinkle);
 }
 
 a:hover {
@@ -26,5 +27,5 @@ a:hover {
 }
 
 a:active {
-  color: #f1a66a;
+  color: var(--clay);
 }
