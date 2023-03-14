@@ -6,10 +6,6 @@
   --clay: #f1a66a;
 }
 
-body {
-  background-color: #f2f2f2;
-}
-
 h1 {
   color: var(--redwood);
 }
@@ -28,4 +24,14 @@ a:hover {
 
 a:active {
   color: var(--clay);
+}
+
+ul {
+  list-style-type: circle;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
 }
