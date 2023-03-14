@@ -6,10 +6,6 @@
   --clay: #f1a66a;
 }
 
-h1 {
-  color: var(--redwood);
-}
-
 a {
   color: var(--periwinkle);
 }
