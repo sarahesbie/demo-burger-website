@@ -1,3 +1,4 @@
+/* VARIABLES */
 :root {
   --redwood: #a54657;
   --mantis: #7ac74f;
@@ -6,6 +7,11 @@
   --clay: #f1a66a;
 }
 
+/* GLOBALS */
+
+body {
+  margin-top: 80px;
+}
 a {
   color: var(--periwinkle);
 }
@@ -23,11 +29,35 @@ a:active {
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: square;
+  color: #a54657;
 }
 
-table,
-th,
-td {
-  border: 1px solid;
+h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 40px;
+  padding-left: 20px;
+  color: var(--coral);
+  border-left: 5px solid #f1a66a;
+}
+h2 {
+  font-family: "Staatliches", cursive;
+  font-size: 32px;
+  color: var(--clay);
+}
+
+img {
+  max-width: 100%;
+}
+
+/* BURGER PAGE STYLES */
+
+img.burger-pic {
+  height: 250px;
+  border-radius: 10%;
+  border: 10px solid #7ac74f;
+}
+
+div.burger-section {
+  padding: 20px;
 }
