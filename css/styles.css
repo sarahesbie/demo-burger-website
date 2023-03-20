@@ -10,8 +10,9 @@
 /* GLOBALS */
 
 body {
-  margin-top: 80px;
+  margin: 60px 0 0;
 }
+
 a {
   color: var(--periwinkle);
 }
@@ -48,6 +49,32 @@ h2 {
 
 img {
   max-width: 100%;
+}
+
+/*NAVBAR STYLES*/
+
+div.navbar {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  border: 1px solid antiquewhite;
+}
+
+div.navbar li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 1rem;
+}
+
+div.navbar li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 30%;
+}
+
+div.navbar li > a:hover {
+  text-decoration: underline;
 }
 
 /* BURGER PAGE STYLES */
