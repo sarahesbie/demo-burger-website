@@ -10,9 +10,14 @@
 /* GLOBALS */
 
 body {
-  margin: 60px 0 0;
+  width: 100%;
+  margin: 0;
 }
 
+main {
+  margin-top: 60px;
+  padding: 10px;
+}
 a {
   color: var(--periwinkle);
 }
@@ -53,28 +58,51 @@ img {
 
 /*NAVBAR STYLES*/
 
-div.navbar {
+header nav {
   position: fixed;
   top: 0;
   background-color: white;
   width: 100%;
-  border: 1px solid antiquewhite;
+  border-bottom: 1px solid #f1a66a;
 }
 
-div.navbar li {
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+header nav ul li {
+  font-family: "Staatliches", cursive;
+  text-transform: uppercase;
   list-style-type: none;
-  display: inline;
   padding-right: 1rem;
 }
 
-div.navbar li > a {
+header nav li > a {
   text-decoration: none;
-  text-transform: uppercase;
-  width: 30%;
 }
 
-div.navbar li > a:hover {
-  text-decoration: underline;
+header nav li > a.active-page {
+  color: var(--mantis);
+}
+
+/* FOOTER STYLES*/
+
+footer {
+  background-color: var(--clay);
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+footer nav li {
+  list-style-type: none;
+  padding: 10px;
 }
 
 /* BURGER PAGE STYLES */
@@ -87,4 +115,41 @@ img.burger-pic {
 
 div.burger-section {
   padding: 20px;
+}
+
+/* IMAGE GALLERY STYLES */
+
+section#image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section#image-gallery img {
+  width: 30%;
+  align-self: center;
+  margin: 10px;
+}
+
+section#image-gallery img#beef-burger {
+  order: 5;
+}
+
+section#image-gallery img#chicken-burger {
+  order: 2;
+}
+
+section#image-gallery img#veg-burger {
+  order: 6;
+}
+
+section#image-gallery img#sesame-burger {
+  order: 3;
+}
+
+section#image-gallery img#gourmet-burger {
+  order: 4;
+}
+
+section#image-gallery img#salad-burger {
+  order: 1;
 }

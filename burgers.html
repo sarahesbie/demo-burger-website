@@ -7,54 +7,67 @@
     <title>Burgers</title>
   </head>
   <body>
-    <div class="navbar">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/burgers.html">Burgers</a></li>
-        <li><a href="/sides.html">Sides</a></li>
-      </ul>
-    </div>
-
-    <h1>Burgers</h1>
-
-    <div id="beef-burgers" class="burger-section">
-      <h2>Beef Burgers</h2>
-      <img
-        src="./images/in-n-out.jpeg"
-        alt="In'n'Out Burger"
-        id="in-n-out-burger"
-        class="burger-pic"
-      />
-
-      <ul class="food-list" id="cheeseburger-list">
-        <li>
-          <h3>Cheeseburger</h3>
-          <ul>
-            <li>Single Patty</li>
-            <li>Double Patty</li>
-            <li>Double cheese</li>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/burgers.html" class="active-page">Burgers</a></li>
+          <li><a href="/sides.html">Sides</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Burgers</h1>
+      <div id="burger-descriptions">
+        <article id="beef-burgers" class="burger-section">
+          <h2>Beef Burgers</h2>
+          <img
+            src="./images/in-n-out.jpeg"
+            alt="In'n'Out Burger"
+            id="in-n-out-burger"
+            class="burger-pic"
+          />
+          <ul class="food-list" id="cheeseburger-list">
+            <li>
+              <h3>Cheeseburger</h3>
+              <ul>
+                <li>Single Patty</li>
+                <li>Double Patty</li>
+                <li>Double cheese</li>
+              </ul>
+            </li>
+            <li>Wagyu steak burger</li>
+            <li>Hamburgers</li>
+            <li>Aussie burgers with the lot</li>
           </ul>
-        </li>
-        <li>Wagyu steak burger</li>
-        <li>Hamburgers</li>
-        <li>Aussie burgers with the lot</li>
-      </ul>
-    </div>
-    <div id="chicken-burgers" class="burger-section">
-      <h2>Chicken Burgers</h2>
-      <img
-        src="./images/butchies-burger.jpeg"
-        alt="Butchies Fried Chicken Burger"
-        id="chicken-burger"
-        class="burger-pic"
-      />
+        </article>
+        <article id="chicken-burgers" class="burger-section">
+          <h2>Chicken Burgers</h2>
+          <img
+            src="./images/butchies-burger.jpeg"
+            alt="Butchies Fried Chicken Burger"
+            id="chicken-burger"
+            class="burger-pic"
+          />
 
-      <ul class="food-list">
-        <li>McChicken</li>
-        <li>Schnitzel burger</li>
-        <li>Portugese</li>
-        <li>Buttermilk fried chicken</li>
-      </ul>
-    </div>
+          <ul class="food-list">
+            <li>McChicken</li>
+            <li>Schnitzel burger</li>
+            <li>Portugese</li>
+            <li>Buttermilk fried chicken</li>
+          </ul>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <p>copyright 2023 Sarah Brown</p>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="./burgers.html">Burgers</a></li>
+          <li><a href="./sides.html">Sides</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
